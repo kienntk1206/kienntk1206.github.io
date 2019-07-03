@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+li.nav-item.active {
+    display: inline-block;
+}
+
+ul.navbar.navbar-nav.ml-auto {
+    display: inline-block;
+    width: 100%;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+li.nav-item.active {
+    text-transform: uppercase;
+    line-height: 100px;
+    margin: 0px 15px;
+}
+
+.navbar-brand img{
+	width: 80px;
+	height: 60px;
+}
+
+@media (max-width:576px){
+	*{
+	}
+}
